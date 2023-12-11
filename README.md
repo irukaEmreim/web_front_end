@@ -12,5 +12,7 @@ Bu proje, sadece front-end tarafını kapsamaktadır. Kullanıcı dostu arayüz�
 - **İletişim:** Firma iletişim bilgileri ve adresi.
 - **Hakkımızda & Misyon & Vizyon:** Firma hakkında genel bilgiler.
 
+** Admin Panelinin site ile bir bağlantısı yoktur. Ayrıca Girilmesi gerekmektedir. **
+
 ## Kullanım
 Projeyi yerel bir sunucuda veya tarayıcıda açarak gezebilir ve inceleyebilirsiniz.
