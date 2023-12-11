@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Seul Işık Festivali</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
+
+  </head>
+
+<body style="background-color: rgba(0, 0, 0, 0.842);">
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+  
+ <!-- Başlık -->
+ <br>
+  <button type="button" class="btn btn-primary btn-lg btn-block" style="border-radius: 250px; place-items: center; display: grid; height: 60px;">Seul Işık Festivali</button>
+  <br>
+  <div class="row">
+  <div class="col-lg-6">
+    <div style="max-width: 100%; height: auto; display: flex; justify-content: center; align-items: center;">
+      <img src="../index/lantern_festival.webp" alt="seul_isik_festivali" style="border-radius: 30%; width: 50%; height: auto;">
+    </div>
+</div>
+  <div class="col-lg-6">
+    <div style="color: whitesmoke; " >
+      <center><h2>Seul Işık Festivali Nedir?</h2> 
+      <p>Kasım sonu itibarıyla Aralık ayının başlarına kadar devam eden bir festivaldir. Renkli fenerler, lambalar ve ışıklarla süslenmiş olan Cheonggyecheon Nehri boyunca büyüleyici bir görsel şölen sunar.</p>
+    </center>
+    </div>
+</div>
+  </div>
+<br><br>
+<br><br>
+<div class="row">
+  <div class="col-lg-12" style="color: whitesmoke;">
+    <center>
+    <h2 style="color: red;">Etkinlik Detayları</h2>
+    <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bolder;"> Tarih : 28.11.2023 - 09.12.2023</p>
+    <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ">Eğer Güney Kore'deki bu görsel şöleni kaçırmak istemiyorsanız rezervasyon yapmayı unutmayın.</p>
+    <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Daha fazla detay için aşağıdan pdf veya word dosyalarına ulaşabilirsiniz</p>
+  </center>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-lg-12">
+    <center>
+    <a href="../duyurular/hatsumode_pdf.pdf" download=""><img src="../duyurular/pdf_logo.png" alt="pdf_logo" style="height: 80px;"></a>
+    <a href="../duyurular/hatsumode_pdf.pdf" download=""><img src="../duyurular/word_logo.png" alt="word_logo" style="height: 80px;"></a>
+  </center>
+  </div>
+</div>
+<br><br><br>
+  
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    function bannerSwitcher() {
+      next = $('.sec-1-input').filter(':checked').next('.sec-1-input');
+      if (next.length) next.prop('checked', true);
+      else $('.sec-1-input').first().prop('checked', true);
+    }
+
+    var bannerTimer = setInterval(bannerSwitcher, 5000);
+
+    $('nav .controls label').click(function() {
+      clearInterval(bannerTimer);
+      bannerTimer = setInterval(bannerSwitcher, 5000)
+    });
+    
+    function acilirPencere(butonId) {
+      var acilacakLink;
+      var hatsumode = "HatsumodeAdres";
+      var nozawa = "NozawaAdres";
+      var seulIsik = "SeulIsikAdres";
+      var quebec = "QuebecAdres";
+      var pasko = "PaskoAdres";
+      if (butonId == "hatsumode") {
+        acilacakLink = "duyuru_sayfalari/duyuru1.html";
+      }
+      else if (butonId == "nozawa") {
+        acilacakLink = "";
+      }
+      window.open(acilacakLink,'_blank','width=600,height=400');
+    }
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+
+</html>
